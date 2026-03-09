@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6fa;
+    color: black;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/056/309/847/small/white-paper-flowers-on-a-white-background-photo.jpg");
+}
+header {
+    background-color: red;
+    color: aliceblue;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/275/301/non_2x/light-orange-triangle-mosaic-template-vector.jpg");
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2.2rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav ul li a:hover {
+    color: blue;
+}
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(236, 230, 230);
+}
+section {
+    margin-bottom: 2.5rem;
+}
+h2{
+    color: blue;
+    margin-top: 0;
+}
+h3 {
+    color: blueviolet;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgb(236, 230, 230);
+    margin-top: 2rem;
+    border-top: 1px solid #f4f6fa;
+}
