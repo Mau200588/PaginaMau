@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stiles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>MauC</title>
     <link rel="icon" type="image/x-icon" href="https://images.icon-icons.com/1115/PNG/512/1486071980-1_79325.png">
 </head>
@@ -12,7 +14,7 @@
 <body>
     <header>
         <nav>
-             <h1>VENTA DE COMIDA CASERA A DOMICILIO</h1>  
+            <h1>VENTA DE COMIDA CASERA A DOMICILIO</h1>
             <ul>
                 <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
                 <li><a href="#menu">Menu</a></li>
@@ -21,34 +23,116 @@
             </ul>
         </nav>
     </header>
+    <div class="container p-0">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.bolivia.com/gastronomia/2018/01/25/silpancho-boliviano-3574-1.jpg"
+                        class="d-block w-100" alt="silpancho">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i0.wp.com/elcalderoviajero.com/wp-content/uploads/2018/12/pique-a-lo-macho-11.jpg"
+                        class="d-block w-100" alt="pique">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/qBp3x7Uk3rI/hq720.jpg" class="d-block w-100" alt="saice">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
     <main>
         <section id="sobre-nosotros">
-             <h2>Sobre nosotros mauricio</h2>
-        <p>Comida casera hecha con amor, entregada en tu puerta</p>
-        <h2>Sobre nosotros</h2>
-            <p>Somos un pequeño emprendimiento familiar que prepara comida casera fresca todos los días, como hecha en casa</p>
+            <h2>Sobre nosotros mauricio</h2>
+            <p>Comida casera hecha con amor, entregada en tu puerta</p>
+            <h2>Sobre nosotros</h2>
+            <p>Somos un pequeño emprendimiento familiar que prepara comida casera fresca todos los días, como hecha en
+                casa</p>
         </section>
         <section id="menu">
-             <h2>Menu</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://i.pinimg.com/736x/18/eb/53/18eb535a73d0c24fdf008574b5626168.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Sopa de Mani</b></h5>
+                                <p class="card-text">sopa cremosa y espesa a base de maní (cacahuete) molido, carne de res o pollo, arroz o fideo tostado, verduras y papas, servida frecuentemente con papas fritas al hilo y perejil encima.</p>
+                                <a href="#" class="btn btn-primary">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://www.recetas.com.bo/sites/default/files/2019-11/silpancho-0416.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Silpancho</b></h5>
+                                <p class="card-text">lato tradicional boliviano, originario de Cochabamba, caracterizado por una fina y grande milanesa de carne vacuna apanada, servida sobre una base de arroz blanco y papas cocidas/fritas, coronado con huevo frito y una ensalada de tomate, cebolla y locoto.</p>
+                                <a href="#" class="btn btn-primary">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExog9b2rKtKPR8MQS4eCLX9C6cNT2E5UopQ&s" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Saice</b></h5>
+                                <p class="card-text">Un guiso emblemático de Bolivia, originario de Tarija, basado en carne molida o picada, ají colorado, papas y arvejas .</p>
+                                <a href="#" class="btn btn-primary">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Menu</h2>
             <h3>Sopas</h3>
-                <ul>
-                    <li>🍲 Sopa de maní = 20 Bs</li>
-                    <li>🍲 Sopa de pollo = 20 Bs</li>
-                </ul>                
+            <ul>
+                <li>🍲 Sopa de maní = 20 Bs</li>
+                <li>🍲 Sopa de pollo = 20 Bs</li>
+            </ul>
             <h3>Platos principales</h3>
-                <ul>
-                    <li>🍗 Pollo al horno + arroz + ensalada = 28 Bs</li>
-                    <li>🌶 Picante de pollo = 30 Bs</li>
-                    <li>🌶 Silpancho = 30 Bs</li>
-                </ul>
+            <ul>
+                <li>🍗 Pollo al horno + arroz + ensalada = 28 Bs</li>
+                <li>🌶 Picante de pollo = 30 Bs</li>
+                <li>🌶 Silpancho = 30 Bs</li>
+            </ul>
             <h3>Extras</h3>
-                <ul>
-                    <li>🥤 Refresco de mocochinchi = 5 Bs</li>
-                    <li>🥤 Postre Casero = 5 Bs</li>
-                </ul>                
+            <ul>
+                <li>🥤 Refresco de mocochinchi = 5 Bs</li>
+                <li>🥤 Postre Casero = 5 Bs</li>
+            </ul>
         </section>
         <section id="facil">
-            <h2>Es muy fácil pedir</h2>        
+            <h2>Es muy fácil pedir</h2>
             <ul>
                 <li>Elige tu plato</li>
                 <li>Escríbenos por WhatsApp</li>
@@ -56,14 +140,18 @@
                 <li>Pagas en efectivo o qr</li>
             </ul>
         </section>
-    </main>              
-        <footer>
-            <h4 id="contactos">Contactos</h4>
-            <p>WhatsApp  76250862📱</p>
-            <h4>Teléfono</h4>
-                 2256658
-            <h4>Horarios</h4>
-            <p>de 11 am a 08:00 pm</p>
-        </footer>
-        </body>
+    </main>
+    <footer>
+        <h4 id="contactos">Contactos</h4>
+        <p>WhatsApp 76250862📱</p>
+        <h4>Teléfono</h4>
+        2256658
+        <h4>Horarios</h4>
+        <p>de 11 am a 08:00 pm</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
