@@ -1,4 +1,17 @@
-window.onload = function() {
+let darkmode = false;
+document.querySelector('a[href="#darkmode"]').addEventListener('click', function(){
+if(darkmode){
+    document.body.style.backgroundColor = "#ffffff";
+    document.body.style.color = "black";
+}   else {
+    document.body.style.backgroundColor = "#2d4a5e";
+    document.body.style.color = "orange";
+}
+    darkmode = !darkmode;
+});
+
+
+/*window.onload = function() {
     alert("tenemos variedad de platos pide el tuyo");
     alert("Menu: Silpancho Pique Macho y Saice");
 };
@@ -18,5 +31,8 @@ document.querySelectorAll('.btn-warning').forEach(function(btn){
     btn.addEventListener('click', function(e){
         e.preventDefault();
         alert('gracias por su preferencia en comprar el producto')
+        setTimeout(function(){
+            window.location.href = btn.getAttribute('href');
+        }, 2000);
     });
-});
+});*/
