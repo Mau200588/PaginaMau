@@ -59,9 +59,16 @@ h3 {
     color: blueviolet;
 }
 footer {
+    
     text-align: center;
     padding: 1rem;
-    background: rgb(236, 230, 230);
+    background: #2d4a5e;
     margin-top: 2rem;
     border-top: 1px solid #f4f6fa;
+    color: whitesmoke;
+}
+.img-uniforme {
+  width: 100%;       /* Ancho del contenedor */
+  height: 200px;     /* Altura fija deseada */
+  object-fit: cover; /* Recorta la imagen para ajustar sin deformar */
 }
