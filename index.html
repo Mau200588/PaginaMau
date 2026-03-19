@@ -20,10 +20,19 @@
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#facil">Es muy fácil pedir</a></li>
                 <li><a href="#contactos">Contactos</a></li>
+                <li><a href="#darkmode">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cloud-moon-fill" viewBox="0 0 16 16">
+                            <path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5z" />
+                            <path
+                                d="M11.286 1.778a.5.5 0 0 0-.565-.755 4.595 4.595 0 0 0-3.18 5.003 5.5 5.5 0 0 1 1.055.209A3.6 3.6 0 0 1 9.83 2.617a4.593 4.593 0 0 0 4.31 5.744 3.58 3.58 0 0 1-2.241.634q.244.477.394 1a4.59 4.59 0 0 0 3.624-2.04.5.5 0 0 0-.565-.755 3.593 3.593 0 0 1-4.065-5.422z" />
+                        </svg>
+                    </a></li>
             </ul>
+
         </nav>
     </header>
-  
+    <div class="container-fluid p-0">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -36,7 +45,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://cdn.bolivia.com/gastronomia/2018/01/25/silpancho-boliviano-3574-1.jpg"
-                        class="d-block w-100 shadow" alt="silpancho">
+                        class="img-fluid img-uniforme" alt="silpancho">
                     <div class="carousel-caption d-none d-md-block">
                         <h5><b>Silpancho Cochabambino</b></h5>
                         <p>Ven y disfruta nuestro delicioso silpancho preparado con mucho amor en cada bocado.</p>
@@ -44,14 +53,15 @@
                 </div>
                 <div class="carousel-item">
                     <img src="https://i0.wp.com/elcalderoviajero.com/wp-content/uploads/2018/12/pique-a-lo-macho-11.jpg"
-                        class="d-block w-100 shadow" alt="pique">
+                        class="img-fluid img-uniforme" alt="pique">
                     <div class="carousel-caption d-none d-md-block">
                         <h5><b>Pique Macho</b></h5>
-                        <p>Ven y disfruta un delicioso pique macho, preparado con mucho sabor y pasión en cada bocado.</p>
+                        <p>Ven y disfruta un delicioso pique macho, preparado con mucho sabor y pasión en cada bocado.
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://i.ytimg.com/vi/qBp3x7Uk3rI/hq720.jpg" class="d-block w-100 shadow" alt="saice">
+                    <img src="https://i.ytimg.com/vi/qBp3x7Uk3rI/hq720.jpg" class="img-fluid img-uniforme" alt="saice">
                     <div class="carousel-caption d-none d-md-block">
                         <h5><b>Saice</b></h5>
                         <p>Ven y disfruta un delicioso Saice tarijeño.</p>
@@ -69,11 +79,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
- 
+    </div>
     <main>
         <section id="sobre-nosotros">
-            <h2>Sobre nosotros mauricio</h2>
-            <p>Comida casera hecha con amor, entregada en tu puerta</p>
             <h2>Sobre nosotros</h2>
             <p>Somos un pequeño emprendimiento familiar que prepara comida casera fresca todos los días, como hecha en
                 casa</p>
@@ -82,35 +90,60 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="card" style="width: 100%;">
-                            <img src="https://i.pinimg.com/736x/18/eb/53/18eb535a73d0c24fdf008574b5626168.jpg" class="card-img-top" alt="...">
+                        <div class="card h-100" style="width: 100%;">
+                            <div class="card-header p-0">
+                                <img src="https://i.pinimg.com/736x/18/eb/53/18eb535a73d0c24fdf008574b5626168.jpg"
+                                    class="img-fluid img-uniforme" alt="...">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title"><b>Sopa de Mani</b></h5>
-                                <p class="card-text">sopa cremosa y espesa a base de maní (cacahuete) molido, carne de res o pollo, arroz o fideo tostado, verduras y papas, servida frecuentemente con papas fritas al hilo y perejil encima.</p>
-                                <a href="#" class="btn btn-primary">Pedir</a>
-                                <a href="#" class="btn btn-warning">informacion</a>
+                                <p class="card-text">sopa cremosa y espesa a base de maní (cacahuete) molido, carne de
+                                    res o pollo, arroz o fideo tostado, verduras y papas, servida frecuentemente con
+                                    papas fritas al hilo y perejil encima.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://wa.me/59176250862?text=Hola,%20quisiera%20más%20información"
+                                    class="btn btn-primary">Pedir</a>
+                                <a href="https://facebook.com" class="btn btn-warning">informacion</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style="width: 100%;">
-                            <img src="https://www.recetas.com.bo/sites/default/files/2019-11/silpancho-0416.jpg" class="card-img-top" alt="...">
+                        <div class="card h-100" style="width: 100%;">
+                            <div class="card-header p-0">
+                                <img src="https://www.recetas.com.bo/sites/default/files/2019-11/silpancho-0416.jpg"
+                                    class="img-fluid img-uniforme" alt="...">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title"><b>Silpancho</b></h5>
-                                <p class="card-text">lato tradicional boliviano, originario de Cochabamba, caracterizado por una fina y grande milanesa de carne vacuna apanada, servida sobre una base de arroz blanco y papas cocidas/fritas, coronado con huevo frito y una ensalada de tomate, cebolla y locoto.</p>
-                                <a href="#" class="btn btn-primary">Pedir</a>
-                                <a href="#" class="btn btn-warning">informacion</a>
+                                <p class="card-text">plato tradicional boliviano, originario de Cochabamba,
+                                    caracterizado
+                                    por una fina y grande milanesa de carne vacuna apanada, servida sobre una base de
+                                    arroz blanco y papas fritas, coronado con huevo frito y una ensalada de
+                                    tomate, cebolla y locoto.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://wa.me/59176250862?text=Hola,%20quisiera%20más%20información"
+                                    class="btn btn-primary">Pedir</a>
+                                <a href="https://facebook.com" class="btn btn-warning">informacion</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style="width: 100%;">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExog9b2rKtKPR8MQS4eCLX9C6cNT2E5UopQ&s" class="card-img-top" alt="...">
+                        <div class="card h-100" style="width: 100%;">
+                            <div card-header p-0>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExog9b2rKtKPR8MQS4eCLX9C6cNT2E5UopQ&s"
+                                    class="img-fluid img-uniforme" alt="...">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title"><b>Saice</b></h5>
-                                <p class="card-text">Un guiso emblemático de Bolivia, originario de Tarija, basado en carne molida o picada, ají colorado, papas y arvejas .</p>
-                                <a href="#" class="btn btn-primary">Pedir</a>
-                                <a href="#" class="btn btn-warning">informacion</a>
+                                <p class="card-text">Un guiso emblemático de Bolivia, originario de Tarija, basado en
+                                    carne molida o picada, ají colorado, papas y arvejas .</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://wa.me/59176250862?text=Hola,%20quisiera%20más%20información"
+                                    class="btn btn-primary">Pedir</a>
+                                <a href="https://facebook.com" class="btn btn-warning ">informacion</a>
                             </div>
                         </div>
                     </div>
@@ -143,6 +176,38 @@
                 <li>Pagas en efectivo o qr</li>
             </ul>
         </section>
+        <div class="container py-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-5">
+                    <h2 class="display-5 fw-bold text-body-emphasis">Visítanos</h2>
+                    <p class="lead text-muted">Ven a disfrutar de la mejor comida en un ambiente acogedor.</p>
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Dirección</h5>
+                            <p class="card-text">
+                                Calle bernardo 123, Av landaeta plaza el condor<br>
+                                Ciudad de La Paz, 0000
+                            </p>
+                            <h5 class="card-title fw-semibold">Horario</h5>
+                            <p class="card-text">
+                                Lun - Sáb: 10:00 AM - 10:00 PM<br>
+                                Dom: 12:00 PM - 6:00 PM
+                            </p>
+                            <a href="https://maps.app.goo.gl/sas46QhBydMkxquP9" target="_blank" class="btn btn-primary">
+                                <i class="bi bi-geo-alt-fill"></i> Ver en Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.339275878661!2d-68.13809382564007!3d-16.5089607409545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f207c6ce14e89%3A0xb976666a393edf5d!2sPlaza%20El%20C%C3%B3ndor!5e0!3m2!1ses-419!2smx!4v1773951428755!5m2!1ses-419!2smx"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <h4 id="contactos">Contactos</h4>
